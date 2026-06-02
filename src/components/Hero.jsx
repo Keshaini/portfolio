@@ -21,12 +21,15 @@ export default function Hero() {
 
         {/* Heading */}
         <h1 className="font-display text-5xl md:text-7xl font-800 leading-none tracking-tight mb-6">
-          <span className="text-soft">Full-Stack</span>
+          <span className="text-muted text-3xl md:text-4xl font-500">Hi, I'm</span>
           <br />
-          <span className="text-accent">Developer</span>
+          <span className="text-soft">Keshaini</span>
           <br />
-          <span className="text-muted text-3xl md:text-4xl font-500">& IT Undergraduate</span>
+          <span className="text-accent">Yogeswaran</span>
         </h1>
+        <p className="font-display text-xl md:text-2xl text-muted font-400 mb-6">
+          Full-Stack Developer & IT Undergraduate
+        </p>
 
         <p className="text-muted text-base md:text-lg max-w-xl leading-relaxed mb-10 font-body">
           Third-year IT undergraduate at SLIIT passionate about building end-to-end web applications,
