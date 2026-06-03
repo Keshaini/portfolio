@@ -16,7 +16,7 @@ export default function Contact() {
     <section id="contact" className="py-24 px-6 max-w-5xl mx-auto">
       <div ref={ref} className="section-reveal">
         <div className="mb-12">
-          <span className="font-mono text-xs text-accent tracking-widest uppercase">05 / Contact</span>
+          <span className="font-mono text-xs text-accent tracking-widest uppercase">Contact</span>
           <h2 className="font-display text-3xl md:text-4xl font-700 text-soft mt-2">
             Let's Connect
           </h2>

@@ -17,7 +17,7 @@ export default function Education() {
     <section id="education" className="py-24 px-6 max-w-5xl mx-auto">
       <div ref={ref} className="section-reveal">
         <div className="mb-12">
-          <span className="font-mono text-xs text-accent tracking-widest uppercase">04 / Education</span>
+          <span className="font-mono text-xs text-accent tracking-widest uppercase">Education</span>
           <h2 className="font-display text-3xl md:text-4xl font-700 text-soft mt-2">
             Background
           </h2>
