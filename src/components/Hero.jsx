@@ -9,7 +9,7 @@ export default function Hero() {
 
   return (
     <section
-      id="about"
+      id="hero"
       className="min-h-screen flex flex-col justify-center px-6 pt-24 pb-16 max-w-5xl mx-auto"
     >
       <div ref={ref} className="section-reveal">

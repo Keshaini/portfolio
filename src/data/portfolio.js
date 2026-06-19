@@ -25,6 +25,7 @@ export const projects = [
     stack: ["Spring Boot", "PostgreSQL", "MySQL"],
     category: "Full Stack",
     color: "#6EE7B7",
+    repo: "https://github.com/Keshaini/it3030-paf-2026-nexahub-group61",
   },
   {
     title: "Smart Hostel Management System",
@@ -33,6 +34,7 @@ export const projects = [
     stack: ["MongoDB", "Express.js", "React.js", "Node.js"],
     category: "Full Stack",
     color: "#93C5FD",
+    repo: "https://github.com/Keshaini/UNINEST",
   },
   {
     title: "MediTrack — Personal Health Tracker",
@@ -41,6 +43,7 @@ export const projects = [
     stack: ["MongoDB", "Express.js", "React.js", "Node.js"],
     category: "Full Stack",
     color: "#F9A8D4",
+    repo: "https://github.com/Keshaini/MEDITRACK",
   },
   {
     title: "WellMe",
@@ -49,6 +52,7 @@ export const projects = [
     stack: ["Kotlin", "Android"],
     category: "Mobile",
     color: "#A5B4FC",
+    repo: null,
   },
   {
     title: "Staff Management System",
@@ -57,6 +61,7 @@ export const projects = [
     stack: ["Java", "JSP", "Servlet", "MVC"],
     category: "Backend",
     color: "#FCD34D",
+    repo: null,
   },
   {
     title: "Tourism & Travel Management System",
@@ -65,6 +70,7 @@ export const projects = [
     stack: ["PHP", "HTML", "CSS"],
     category: "Web",
     color: "#6EE7B7",
+    repo: null,
   },
 ];
 
