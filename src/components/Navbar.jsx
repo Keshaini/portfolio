@@ -1,6 +1,12 @@
 import { useState, useEffect } from "react";
 
-const links = ["About", "Skills", "Projects", "Education", "Contact"];
+const links = [
+  { label: "About", href: "#about-details" },
+  { label: "Skills", href: "#skills" },
+  { label: "Projects", href: "#projects" },
+  { label: "Education", href: "#education" },
+  { label: "Contact", href: "#contact" },
+];
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -22,18 +28,18 @@ export default function Navbar() {
     >
       <div className="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
         <span className="font-display font-700 text-accent text-lg tracking-tight">
-          PORTFOLIO<span className="text-soft"></span>
+          portfolio<span className="text-soft">.</span>
         </span>
 
         {/* Desktop */}
         <ul className="hidden md:flex gap-8">
           {links.map((l) => (
-            <li key={l}>
+            <li key={l.label}>
               <a
-                href={`#${l.toLowerCase()}`}
+                href={l.href}
                 className="text-sm text-muted hover:text-soft transition-colors font-body"
               >
-                {l}
+                {l.label}
               </a>
             </li>
           ))}
@@ -57,12 +63,12 @@ export default function Navbar() {
         <div className="md:hidden bg-[#161616] border-t border-[#2A2A2A] px-6 pb-4">
           {links.map((l) => (
             <a
-              key={l}
-              href={`#${l.toLowerCase()}`}
+              key={l.label}
+              href={l.href}
               onClick={() => setMenuOpen(false)}
               className="block py-3 text-sm text-muted hover:text-soft border-b border-[#2A2A2A] last:border-0"
             >
-              {l}
+              {l.label}
             </a>
           ))}
         </div>

@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Education from "./components/Education";
@@ -27,6 +28,8 @@ export default function App() {
       <Navbar />
       <main className="relative z-10">
         <Hero />
+        <div className="border-t border-[#2A2A2A]" />
+         <About />
         <div className="border-t border-[#2A2A2A]" />
         <Skills />
         <div className="border-t border-[#2A2A2A]" />
